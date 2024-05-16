@@ -1,0 +1,23 @@
+Huda Nadeem
+1143941
+A1 - 4010
+
+TO RUN MY SCRIPT
+
+python a1.py
+
+
+
+Maybe a restrcition for one of my functions?
+
+
+My laptop is Windows so I adjusted my non-S3 commands to get Windows 
+in my code I have..
+
+if platform.system() == "Windows":
+    # changing to make commands for Windows
+    line = line.replace("ls", "dir").replace("pwd", "cd")
+
+I believe if you're in shell and you have a macbook it should work? but I'm not 100% sure.
+
+
