@@ -1,22 +1,35 @@
-Huda Nadeem
-AWS-S3-Storage-Shell-S5-Development
+# ☁️ S5Shell - AWS S3 Storage Shell
 
+**S5Shell** is a custom command-line shell interface built in Python that interacts with AWS S3 buckets. Designed as a learning project to understand AWS CLI behavior and S3 storage operations, it supports file upload, bucket creation, navigation, and local command execution — all inside a shell-like interface.
+---
 
-TO RUN SCRIPT
+## 📦 Features
 
-python a1.py
+- 🌐 Connects to AWS S3 using a config file
+- 📁 Create and navigate S3 buckets/paths
+- ⬆️ Upload local files to S3 (`locs3cp`)
+- 📂 List contents of current S3 path or bucket
+- 🖥️ Run local OS shell commands like `ls`, `pwd`, etc.
+- 💻 Compatible with both **Windows** and **Mac/Linux**
+- 🚪 Type `exit` or `quit` to leave the shell
 
+---
 
+## 🛠 Setup Instructions
 
-Maybe a restrcition for one of my functions?
+### ✅ Prerequisites
 
-My laptop is Windows so I adjusted my non-S3 commands to get Windows 
-in my code I have..
+- Python 3.x
+- `boto3` library
+- AWS access key and secret stored in a config file
 
-if platform.system() == "Windows":
-    # changing to make commands for Windows
-    line = line.replace("ls", "dir").replace("pwd", "cd")
+---
 
-I believe if you're in shell and you have a macbook it should work? but I'm not 100% sure.
+### 📁 Step 1: AWS Credentials Setup
 
+Create a file named `S5-S3.conf` in the same directory with the following format:
 
+```ini
+[default]
+aws_access_key_id = YOUR_ACCESS_KEY
+aws_secret_access_key = YOUR_SECRET_KEY
