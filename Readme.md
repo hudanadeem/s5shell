@@ -15,6 +15,26 @@
 - 🚪 Type `exit` or `quit` to leave the shell
 
 ---
+## 🧑‍💻 Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="30"/> **Python** | The primary language used for the shell. |
+|  **AWS S3** | Cloud storage used for file management. |
+|  **Boto3** | AWS SDK for Python, used to interact with AWS S3. |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="30"/> **Git** | Version control for managing the source code. |
+---
+
+## 📂 Git Clone Instructions
+
+To get started, clone the repository:
+
+```bash
+git clone https://github.com/hudanadeem/s5shell.git
+cd s5shell
+```
+
+---
 
 ## 🛠 Setup Instructions
 
@@ -86,6 +106,7 @@ S5> create_bucket /test-bucket
 S5> chlocn /test-bucket
 S5> locs3cp resume.pdf /test-bucket/resume.pdf
 ```
+
 ---
 
 ## 🔚 Exit
@@ -93,7 +114,3 @@ S5> locs3cp resume.pdf /test-bucket/resume.pdf
 Type `exit` or `quit` to leave the shell at any time.
 
 ---
-
-## 🧪 Note for Reviewers
-
-This project was built for educational purposes to explore the AWS SDK (`boto3`), simulate CLI-style interaction with S3, and handle basic file management in a custom shell.
