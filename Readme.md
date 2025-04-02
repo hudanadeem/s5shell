@@ -4,14 +4,6 @@
 
 ---
 
-## 👩‍💻 Author
-
-**Huda Nadeem**  
-Student ID: 1143941  
-Project for A1 - 4010
-
----
-
 ## 📦 Features
 
 - 🌐 Connects to AWS S3 using a config file
